@@ -176,33 +176,36 @@
 			<section id="cooper-stern">
 				<h3> Measuring the entropy near $k_B$ </h3>
 
-				<img style="height: 5em" src="figures/stern_cooper_screenshot.png"> </img>
+				<img style="height: 4.5em" src="figures/stern_cooper_screenshot.png"> </img>
 
 				<p>
-					Measure low-temperature residual entropy of quasiparticles excitations in FQH states
+					Residual entropy of quasiparticles in FQH
 				</p>
 
-				<p class="fragment">
-					<strong>Maxwell relation:</strong>&ensp;$\left(\frac{\partial \mu}{\partial T}\right)_{p,n}
-					= -\left(\frac{\partial s}{\partial n}\right)_{p,T}$
-				</p>
+				<ul class="fragment">
+					<li>
+						<strong>Maxwell relation:</strong>&ensp;$\left(\frac{\partial \mu}{\partial T}\right)_{p,n} = -\left(\frac{\partial s}{\partial n}\right)_{p,T}$
+					</li>
+				</ul>
 			</section>
 
 			<!-- clean up this slide _a lot_ -->
-			<section id="more-moore-read">
-				<h3> Non-trivial single-particle statistics in FQH </h3>
+			<section id="moore-read">
+				<h3> Non-trivial single-particle statistics in 2DEG </h3>
 
 				<img class="plain" style="height: 8em; margin-bottom: 0%" src="figures/composite_fermions.svg"> </img>
 				<ul style="font-size: 0.6em">
-					<li> Moore-Read state: theory to explain physics at $\nu = 5/2$ fractional quantum hall state</li>
 					<li class="fragment"> $\nu = 5/2$ is an inert $\nu = 2$ state plus a $\nu = 1/2$ composite fermion state </li>
 					<li class="fragment"> Composite fermions pair to form a spinless (p-wave) gapped state </li>
 					<li class="fragment"> Additional flux ($B^{*}\neq 0$) introduces vortices: Moore-Read quasiparticles </li>
 					<li class="fragment"> MR quasiparticles have non-Abelian statistics: $\hat{P} \lvert \psi(x_1, x_2) \rangle \neq e^{i\phi} \lvert \psi(x_2,x_1) \rangle$</li>
+					<li class="fragment">
+						Degenerate groundstate:&ensp;$2^{N_{qp}/2 - 1}$ (<strong>entropy</strong>)
+					</li>
 				</ul>
 			</section>
 
-			<section id="measuring-moore-read">
+			<!-- <section id="measuring-moore-read">
 				<h3> Identifying Moore-Read quasiparticles </h3>
 
 				<ul>
@@ -211,7 +214,7 @@
 					<li class="fragment"> Degenerate groundstate:&ensp;$2^{N_{qp}/2 - 1}$ (<strong>entropy</strong>)</li>
 				</ul>
 
-			</section>
+			</section> -->
 
 			<!-- <section id="mohammad-1">
 				<h3> SET Response (Samani, PhD Thesis, 2017) </h3>
@@ -249,7 +252,7 @@
 				<h2> how do things look <strong> locally </strong>? </h2>
 			</section> -->
 
-			<section id="venkatachalam">
+			<!-- <section id="venkatachalam">
 				<h3> Successful identification of fractional charge </h3>
 				<img style="height: 5em" src="figures/venkatachalam_screenshot.png"> </img>
 
@@ -263,7 +266,7 @@
 
 					<img style="height: 6em; margin-right: auto; margin-left: 2%;" src="figures/venkatachalam_device.svg"> </img>
 				</div>
-			</section>
+			</section> -->
 
 			<section id="mohammad">
 				<h3> Samani, PhD Thesis (Folk lab), 2017 </h3>
@@ -541,8 +544,10 @@
 					<li> Accuracy of measurement ~5% </li>
 					<ul>
 						<li class="fragment"> Confirmed some well-established physics in a new way (spin-1/2 statistics, $k_B$, ...) </li>
-						<li class="fragment"> Most interesting new physics requires <50% accuracy </li> </ul> <li class="fragment"> The electron temperature in our device(s) is >70mK?! </li>
+						<li class="fragment"> Most interesting new physics requires <50% accuracy </li>
 					</ul>
+					<!-- <li class="fragment"> The electron temperature in our device(s) is >70mK?! </li> -->
+				</ul>
 			</section>
 
 			<section id="kondo-intro">
@@ -685,6 +690,10 @@
 				</div>
 			</section>
 
+			<section id="electron-temp">
+				<p> The electron temperature in our device(s) is >70mK?! </p>
+			</section>
+
 			<section id="wet-dry">
 
 				<h3> comparison of dilution refrigerators </h3>
@@ -773,9 +782,6 @@
 				<h3> thoughts on electron temperature </h3>
 				<ul style="font-size: 0.8em">
 					<li> Eccosorb + RC filter should be sufficient </li>
-					<ul class="fragment">
-						<li> Additional RC filtering on gate lines </li>
-					</ul>
 					<li class="fragment"> Radiation shielding and coupling to mixing chamber may be poor at magnet center </li>
 					<ul class="fragment">
 						<li> More massive cold finger at cost of magnetic field sweep rate </li>
